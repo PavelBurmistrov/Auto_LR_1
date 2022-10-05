@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Profit">
+    <Position X="1" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Profit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auto">
+    <Position X="1" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAgAACABAgA=</HashCode>
+      <FileName>Auto.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoInStock">
+    <Position X="7.25" Y="7" Width="2.75" />
+    <InheritanceLine Type="Auto" FixedFromPoint="true">
+      <Path>
+        <Point X="3.25" Y="5" />
+        <Point X="3.625" Y="5" />
+        <Point X="3.625" Y="6.625" />
+        <Point X="8.625" Y="6.625" />
+        <Point X="8.625" Y="7" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BABIAAAABQABAAAAAAEIARADIAAAQgISAoCAEIAAIAA=</HashCode>
+      <FileName>AutoInStock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseException">
+    <Position X="5.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>BaseException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManager&lt;T&gt;">
+    <Position X="9.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIAIAAAAAAACACAAAAAACAAAAAAYAAAQAAAQA=</HashCode>
+      <FileName>FileManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputException">
+    <Position X="4.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAQAAAAAAEAAAAAABAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>InputException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="list&lt;T&gt;">
+    <Position X="12.5" Y="0.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="list&lt;T&gt;::object&lt;T&gt;">
+        <TypeIdentifier>
+          <NewMemberFileName>list.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="list&lt;T&gt;::iterator">
+        <TypeIdentifier>
+          <NewMemberFileName>list.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAiECgBBAgAAAAIMAAAAQAAEAAAAAgQEAAABAAgA=</HashCode>
+      <FileName>list.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patron">
+    <Position X="4.25" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BEACACABCBAAAgAAAAAAAIQAEBgAAIBIMAAAQAAAQAQ=</HashCode>
+      <FileName>Patron.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldCars">
+    <Position X="1" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABAAAAAABAAgIBAAAIAAAAgAQAoAAAIAAIAA=</HashCode>
+      <FileName>SoldCars.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContainerException">
+    <Position X="7.25" Y="4.25" Width="2.25" />
+    <InheritanceLine Type="BaseException" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="2.434" />
+        <Point X="6.5" Y="2.935" />
+        <Point X="8.375" Y="2.935" />
+        <Point X="8.375" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
+      <FileName>ContainerException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

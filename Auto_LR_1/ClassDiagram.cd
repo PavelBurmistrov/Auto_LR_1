@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Profit">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstract.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Auto">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAABAAAAAAAACAAAAAgAgCABAhA=</HashCode>
+      <FileName>Auto.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoInStock">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAABAAAAAAAAAAIAQACIAAAAgASAgAAEIAAIAA=</HashCode>
+      <FileName>AutoInStock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Patron">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAgAAAAAAAAQAEBgAAAAAMAAAQAAAAAA=</HashCode>
+      <FileName>Patron.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldCars">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABAAAAAAAAAAIAAAAIAAAAgAQAgAAAIAAIAA=</HashCode>
+      <FileName>SoldCars.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
